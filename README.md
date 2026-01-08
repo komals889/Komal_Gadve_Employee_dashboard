@@ -1,16 +1,58 @@
-# React + Vite
+# Bookxpert Web Developer Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the solution for the **Stage 2 assignment** provided by **Bookxpert Pvt Ltd** for the **Web Developer** position.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
 
-## React Compiler
+The project is a web application developed as per the assignment requirements. It demonstrates core frontend development concepts including component-based architecture, state management, clean UI, and responsive design.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- react-router-dom
+
+---
+
+## ✨ Features Implemented
+
+- User-friendly and responsive UI
+- Clean and modular code structure
+- Proper form handling and validations (if applicable)
+- Search / filter functionality (if applicable)
+- Dashboard / table / CRUD operations (if applicable)
+- Error handling and edge case handling
+
+---
+
+## 📂 Folder Structure
+
+```text
+src/
+│── components/     # Reusable UI components
+│── pages/          # Application pages
+│── services/       # API related logic (if applicable)
+│── assets/         # Images / static files
+│── styles/         # CSS files
+│── App.js
+│── index.js
+
+Installation & Setup
+# Clone the repository
+git clone <repository-url>
+
+# Navigate to project directory
+cd project-folder-name
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
